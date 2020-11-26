@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> heroes </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    ><% for (let i = 0; i< heroes.length; i++) {%>
+        <ul>
+            <li><%= heroes[i].id %></li>
+            <li><%= heroes[i].nombre %></li>
+            <li><%= heroes[i].profesion %></li>
+            <li><%= heroes[i].pais %></li>
+            <li><%= heroes[i].resenia %></li>
+        </ul><li>
+    <% }%>
+    
+  </body>
+</html>
